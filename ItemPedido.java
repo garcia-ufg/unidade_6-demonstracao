@@ -8,7 +8,7 @@ public class ItemPedido{
     }
 
     public double getSubtotal(){
-	return this.produto.getPreco();
+	return this.produto.getPreco() * this.quantidade;
     }
 
     public Produto getProduto(){
